@@ -6,8 +6,17 @@ public class Producto {
 
 	private Long id;
 	private String nombre;
+	public Integer getPort() {
+		return port;
+	}
+
+	public void setPort(Integer port) {
+		this.port = port;
+	}
+
 	private Double precio;
 	private Date createAt;
+	private Integer port;
 
 	public Long getId() {
 		return id;
